@@ -5,4 +5,6 @@ const massage = 'Приветик';
 const isOpen = true;
 const shouldConfirm = false;
 
-console.log(5);
+console.log(totalPrice);
+
+ 
