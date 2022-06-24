@@ -235,52 +235,52 @@
 // const canAccessContent = sub === "pro" || sub === "vip";
 // console.log("Есть доступ к контенту?", canAccessContent);
 
-// BRANCHING - ветвление. Выполнение кода по условию. Код выполняется если в скобках if написаноое приводится к true
+// // BRANCHING - ветвление. Выполнение кода по условию. Код выполняется если в скобках if написаноое приводится к true
 
-// Оператор ветвления
-if (1) {
-  // тело
-  console.log("Hello");
-}
-
-if (null) {
-  console.log("Привет");
-}
-
-// Оператор ветвления if...else - если оператор if - false, то выполняется else
-if (5 > 30) {
-  console.log("x > y");
-} else {
-  console.log("x < y");
-}
-
-// Множественное ветвление
-const salary = 852;
-if (salary <= 500) {
-  console.log("Level 1");
-} else if (salary > 500 && salary <= 1000) {
-  console.log("Level 2");
-} else if (salary > 1000 && salary <= 2000) {
-  console.log("Level 3");
-} else {
-  console.log("Level 4");
-}
-
-// Тернарный оператор
-const balance = 1000;
-// let massage;
-
-// if (balance >= 0) {
-//   massage = "Positive balance";
-// } else {
-//   massage = "Negative balance";
+// // Оператор ветвления
+// if (1) {
+//   // тело
+//   console.log("Hello");
 // }
-// это можно записать по такому принципу
-// const massage = условие? выражение1 : выражение2;
 
-const massage = balance >= 0 ? "Positive balance" : "Negative balance";
+// if (null) {
+//   console.log("Привет");
+// }
 
-console.log(massage);
+// // Оператор ветвления if...else - если оператор if - false, то выполняется else
+// if (5 > 30) {
+//   console.log("x > y");
+// } else {
+//   console.log("x < y");
+// }
+
+// // Множественное ветвление
+// const salary = 852;
+// if (salary <= 500) {
+//   console.log("Level 1");
+// } else if (salary > 500 && salary <= 1000) {
+//   console.log("Level 2");
+// } else if (salary > 1000 && salary <= 2000) {
+//   console.log("Level 3");
+// } else {
+//   console.log("Level 4");
+// }
+
+// // Тернарный оператор
+// const balance = 1000;
+// // let massage;
+
+// // if (balance >= 0) {
+// //   massage = "Positive balance";
+// // } else {
+// //   massage = "Negative balance";
+// // }
+// // это можно записать по такому принципу
+// // const massage = условие? выражение1 : выражение2;
+
+// const massage = balance >= 0 ? "Positive balance" : "Negative balance";
+
+// console.log(massage);
 
 // PURCHASE
 
